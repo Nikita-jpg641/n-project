@@ -43,4 +43,6 @@ int main() {
   } else if (amountCashedOut >= 150000)
       std::cout << "Банкомат не может выдать за раз более 150 000 рублей";
       std::cout << "GitHub!!!!" << std::endl;
+
+      std::cout << "New commit for Git" << std::endl;
 }
