@@ -3,6 +3,7 @@
 int main() {
  
     int amountCashedOut;
+    int money;
     std::string ruble;
     std::cout << "Введите сумму, которую необходимо обналичить: " << ruble;
     std::cin >> amountCashedOut;
@@ -42,5 +43,11 @@ int main() {
        } 
   } else if (amountCashedOut >= 150000)
       std::cout << "Банкомат не может выдать за раз более 150 000 рублей";
+<<<<<<< HEAD
       std::cout << "GitttLub!!!!" << std::endl;
+=======
+      std::cout << "GitHub!!!!" << std::endl;
+
+      std::cout << "New commit for Git" << std::endl;
+>>>>>>> new-header
 }
