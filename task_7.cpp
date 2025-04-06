@@ -4,6 +4,7 @@ int main() {
  
     int amountCashedOut;
     int money;
+    int cash;
     std::string ruble;
     std::cout << "Введите сумму, которую необходимо обналичить: " << ruble;
     std::cin >> amountCashedOut;
