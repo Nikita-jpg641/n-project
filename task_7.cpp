@@ -42,6 +42,6 @@ int main() {
         std::cout << " Выдано купюр по 100 рублей " <<  (((amountCashedOut % 5000) % 2000) % 1000% 500) / 100 << " шт. \n";
        } 
   } else if (amountCashedOut >= 150000)
-      std::cout << "Банкомат не может выдать за раз более 150 000 рублей";
+     
       std::cout << "GitttLub!!!!" << std::endl;
 }
